@@ -1,0 +1,316 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: sans-serif;
+  background-color: #E2D9C8;
+}
+.container{
+    padding: 60px 100px;
+}
+*{
+    margin: 0;
+}
+
+.background{
+    background-image: url(photos/nav-photo.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    padding-bottom: 10px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 80px; 
+    color: white;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 60px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+}
+.search{
+    color: white;
+    font-size: 25px;
+}
+header{
+    padding-left: 130px;
+    padding-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items:start;
+    color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+header p{
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+h1{
+    width: 450px;
+    padding-bottom: 20px;
+}
+.order{
+    width: 110px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+}
+.categories{
+    background-color: #E2D9C8;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 400px;
+    padding-right:400px;
+}
+.categories span {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+    gap: 20px;
+    color: #655B51;
+}
+.products{
+    background-color:#F1F0EE;
+    padding: 40px 120px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+h3{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    padding-bottom: 30px;
+    color: #40352D;
+}
+.product-line{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+}
+.product img {
+    width:210px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom:10px;
+}
+.coffees , .desserts {
+    padding: 20px;
+}
+.product{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #EEEBE6;
+    border: 20px;
+    border-radius: 10px;
+}
+.discription{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    padding-left: 17px;
+    padding-bottom: 10px;
+    color: #40352D;
+}
+.discription button {
+    margin-left: 70px;
+    background-color: #30261C;
+    color: white;
+    width: 90px;
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+}
+.discription p {
+    font-size: 15px;
+}
+
+.checkout{
+    background-color: #E7E0D4;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.checkout-join{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.checkout-join h2 {
+    color: #40352D;
+    font-size: 40px;
+    width: 400px;
+    padding-bottom: 20px;
+}
+.explore {
+    margin-right: 220px;
+    background-color: #30261C;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    width: 180px;
+    height: 40px;
+}
+.reviews{
+    background-color: #F1F0EE;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 80px;
+}
+.review-cards{
+    padding: 20px;
+}
+.reviews div {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+.review-1 , .review-2 , .review-3 {
+    border-radius: 5px;
+    background-color: #EEEBE6;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    color: #40352D;
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.08), 0 1px 2px rgba(0, 0, 0, 0.06);
+
+}
+.name {
+    display: flex;
+    margin-right: 160px;
+    align-items: center;
+    justify-content: space-between;
+}
+.reviewer-1 {
+    background-image: url(photos/review-1.jpg);
+    border-radius: 50%;
+    border: 1px solid black;
+    width: 70px;
+    height: 70px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.reviewer-2 {
+    background-image: url(photos/review-2.jpg);
+    border-radius: 50%;
+    border: 1px solid black;
+    width: 70px;
+    height: 70px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.reviewer-3 {
+    background-image: url(photos/review-3.jpg);
+    border-radius: 50%;
+    border: 1px solid black;
+    width: 70px;
+    height: 70px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.data {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+h5 {
+    font-size: 15px;
+    width: 125px;
+}
+.reviews p {
+    font-size: 15px;
+}
+
+
+.join {
+    background-color: #E2D9C8;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #40352D;
+}
+.join h3 {
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+.form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding-top: 20px;
+}
+.email {
+    width: 420px;
+    height: 45px;
+    border: none;
+    border-radius: 20px;
+    padding-right: 250px;
+}
+.email-icon {
+    padding-right: 10px;
+}
+.subscribe {
+    width: 150px;
+    height: 45px;
+    border: none;
+    border-radius: 20px;
+    background-color: #30261C;
+    color: white;
+    font-size: 20px;
+}
+
+.footer {
+    background-color: #30261C;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 80px;
+}
+.footer div {
+    display: flex;
+}
+.privacy , .services , .about , .info , .social {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 25px;
+}
+.footer a {
+    color: white;
+    text-decoration: none;
+    font-size: 10px;
+}
+.social-icons {
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+}
